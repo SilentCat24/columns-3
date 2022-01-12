@@ -115,7 +115,18 @@ margin-bottom:2rem;
 background-color:var(--clr--v-dark-cyan)
 
   }
- 
+ .code{
+   background-color: gray;
+   border-radius:10px;
+ }
+ .code a{
+color:white;
+letter-spacing: 0.2rem;
+
+ }
+ .code:hover{
+   background-color: pink;
+ }
   @media(min-width:992px){
     .container{
       display:flex;
